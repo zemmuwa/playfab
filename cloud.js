@@ -23,6 +23,7 @@ handlers.helloWorld = function (args, context) {
     // three functions corresponding to logging level: debug, info, and error. These functions
     // take a message string and an optional object.
     log.info(message);
+    log.info(args);
     var inputValue = null;
     if (args && args.inputValue)
         inputValue = args.inputValue;
